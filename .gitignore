@@ -1,0 +1,26 @@
+/target
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.o
+*.d
+*.rlib
+*.rmeta
+*.so
+*.dylib
+*.dll
+*.a
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
