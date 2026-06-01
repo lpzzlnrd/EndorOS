@@ -36,7 +36,7 @@ fn run() -> eframe::Result<()> {
             .with_min_inner_size([800.0, 600.0])
             .with_decorations(true)
             .with_resizable(true),
-        renderer: eframe::Renderer::Glow,
+        renderer: eframe::Renderer::Wgpu,
         ..Default::default()
     };
 
